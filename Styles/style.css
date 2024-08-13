@@ -3,13 +3,168 @@
 /*font inter*/
 
 .inter {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*font miama*/
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.miama {
+  font-family: "Miama Nueva";
+}                                             
+
+                
+
+/*shared style start*/
+.text-color{
+  color: white;
+}
+.primary-color{
+  color: rgba(230, 83, 60, 1);
+}
+.second-color{
+  
+  background-color: rgba(17, 17, 17, 1);
+}
+.btn-primary{
+  background-color: rgba(230, 83, 60, 1);
+  padding: 16px 46px;
+  color: white;
+  font-weight: 700;
+  border-radius: 40px;
+  border: none;
+}
+.background-blend{
+  background: linear-gradient(to bottom, rgba(17, 17, 17, 1), rgba(68, 68, 68, 0.5), rgba(119, 119, 119, 0));
+}
+
+/*shared style end*/
+  
+
+
   /*header section start */
+  .header-container{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .nav-title{
+    font-size: 2.1rem;
+    font-weight: 800;
+    font-style: italic;
+  }
   .nav-bar{
     display: flex;
+    justify-content: space-between;
+    
+  }
+  .nav-items{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 30px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-radius: 40px;
+   padding: 8px 20px;
+   
+  }
+  ul span{
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 45px;
+    padding: 8px 20px;
+  }
+  .nav-item{
+    list-style: none;
+    margin-right: 40px;
+
+    
+  }
+  .nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .header-text{
+    margin-top: 95px;
+   
+  }
+
+  .header-title{
+    font-size: 4.9rem;
+    font-weight: 900;
+  }
+  .header-title>span{
+    font-weight: 100;
+  }
+  .header-pic{
+   position: relative;
+  }
+  .header-container-2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-description{
+    color: rgba(255, 255, 255, 0.51)
+  }
+  .btn-secondary{
+    border: 1px solid white;
+    background-color: black;
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(204, 204, 204, 1), rgba(153, 153, 153, 1)); */
+
+    padding: 16px 46px;
+    color: white;
+    font-weight: 700;
+    border-radius: 40px;
+   
+  }
+  .header-box{
+    padding: 7px;
+    display: flex;
+    justify-content:left;
+    width: 200px;
+    background-color: rgba(48, 48, 48, 0.484);
+    border-radius: 12px;
+    position: absolute;
+    top: 68%;
+    left: -38%;
+
+  }
+  .header-box h3{
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+  }
+  
+  .header-box-1{
+    width: 200px;
+    padding-left: 30px;
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    position: absolute;
+    top: 22%;
+    left: 65%;
+  }
+  .header-box p{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.51)
+    
+  }
+  .header-box-1 p{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.51)
+    
+  }
+  
+  .ball{
+    
+    width: 50px;
+    height: 50px;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 50%;
+    margin: 10px;
+    margin-top: 30px;
     
   }
