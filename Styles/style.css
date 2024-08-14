@@ -41,9 +41,7 @@
   border-radius: 40px;
   border: none;
 }
-.background-blend{
-  background: linear-gradient(to bottom, rgba(17, 17, 17, 1), rgba(68, 68, 68, 0.5), rgba(119, 119, 119, 0));
-}
+
 .title-text{
   font-weight: 900;
   font-size: 3rem;
@@ -135,8 +133,8 @@
   }
   .btn-secondary{
     border: 1px solid white;
-    background-color: black;
-    /* background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(204, 204, 204, 1), rgba(153, 153, 153, 1)); */
+    background-color: rgba(0, 0, 0, 0);
+
     margin-left: 14px;
     padding: 16px 46px;
     color: white;
@@ -192,6 +190,9 @@
     margin: 10px;
     margin-top: 17px;
     
+  }
+  header{
+    background: linear-gradient(to bottom, rgba(17, 17, 17, 1), rgba(68, 68, 68, 0.5), rgba(119, 119, 119, 0));
   }
   /*habit section*/
   .habit-container-text{
@@ -337,7 +338,45 @@
       line-height: 1.7;
      
    }
-
+   /*plan*/
+   
+   .plan{
+    margin-top: 100px;
+   }
+   .plan >h1{
+    text-align: center;
+    margin-bottom: 30px;
+   }
+   .plan-container{
+    max-width: 80%;
+   }
+   .plans{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    text-align: center;
+    padding-left: 250px;
+    
+   }
+   .plan-1, .plan-2,.plan-3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+     border-radius: 18px;
+    background-color:rgba(255, 255, 255, 0.275) ;
+   }
+   .plans h1{
+    padding-bottom: 10px;
+   }
+   .plans h3{
+    padding-bottom: 30px;
+   }
+   .plans li{
+    padding: 5px;
+    list-style: none;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 30px;
+   }
    /*our team*/
    .team {
     padding-top: 88px;
