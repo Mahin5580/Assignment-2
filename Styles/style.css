@@ -59,7 +59,8 @@
   .header-container,
   .habit-container,
   .run,
-  .team-pictures{
+  .team-pictures,
+  .plan-container{
     width: 80%;
     margin: 0 auto;
   }
@@ -147,7 +148,7 @@
     display: flex;
     justify-content:left;
     width: 200px;
-    background-color: rgba(48, 48, 48, 0.484);
+    background-color: rgba(48, 48, 48, 0.819);
     border-radius: 12px;
     position: absolute;
     top: 68%;
@@ -163,7 +164,7 @@
   .header-box-1{
     width: 180px;
     padding: 17px 17px;
-    background-color: rgba(48, 48, 48, 0.54);
+    background-color: rgba(48, 48, 48, 0.819);
     border-radius: 12px;
     position: absolute;
     top: 22%;
@@ -226,26 +227,38 @@
    }
    /*run section*/
    .run{
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 65% 35%;
     background-color: rgba(34, 34, 34, 1);
     margin-top: 100px;
     border-radius: 18px;
+
    }
-   .run-pic-container{
+   .run-pic-container div{
     width: 366px;
     height: 312px; 
-    margin: 30px;
     
    }
-
+  
    .run-pic{ 
     width: 100%;
     height: 100%;
     border-radius: 18px;
+
    }
+   .run-pic-container{
+    padding: 40px 30px 40px 54px;
+   }
+   
+   
+
    .run-text{
+    max-width: 443px;
+    padding: 40px 30px 40px 54px;
+
+   }
+   .run-text h1{
     max-width: 400px;
-    margin: 40px 54px;
    }
    .run-text p{
     margin-bottom: 34px;
@@ -338,7 +351,7 @@
       line-height: 1.7;
      
    }
-   /*plan*/
+   /*subscription plan*/
    
    .plan{
     margin-top: 100px;
@@ -347,15 +360,13 @@
     text-align: center;
     margin-bottom: 30px;
    }
-   .plan-container{
-    max-width: 80%;
-   }
+   
    .plans{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     text-align: center;
-    padding-left: 250px;
+    /* padding-left: 250px; */
     
    }
    .plan-1, .plan-2,.plan-3{
@@ -430,21 +441,27 @@
    }
    .footer-container{
     display: grid;
-    padding: 66px 190px;
-    grid-template-columns: 443px 181px 181px;
-    gap: 160px;
+    padding: 66px 180px;
+    grid-template-columns: 54% 23% 23%;
+    gap: 60px;
+
     
    }
    .footer-container h1{
     font-weight: 800;
-    font-size: 4.3rem;
+    font-size: 4.375rem;
     color: rgba(230, 83, 60, 1);
     padding-bottom: 20px;
    }
    .footer-container p{
+    max-width: 440px;
     letter-spacing: 0.3px;
     line-height: 1.7;
    
+ }
+ .footer-container h4{
+  font-size:1.5rem; 
+  font-weight: bold;
  }
    .right{
     max-width: 1060px;
