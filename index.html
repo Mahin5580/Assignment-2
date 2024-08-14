@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/responsive.css">
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
 </head>
-<body class="inter text-color" >
+<body class="inter text-color " >
     <header class="second-color ">
         <div class="header-container" >
             <nav class="nav-bar">
                 <h2 class="primary-color nav-title">Fitness</h2>
-                <div>
+                <div class="nav-display">
                     <ul class="nav-items">
                         <li class="nav-item"> <a href="" class="nav-link"><span>Home</span></a></li>
                         <li class="nav-item"> <a href="" class="nav-link">Service</a></li>
                         <li class="nav-item"> <a href="" class="nav-link">Contact</a></li>
                         <li class="nav-item"> <a href="" class="nav-link">About</a></li>
                     </ul>
+                </div>
+                <div class="hambergur">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
             <div class="header-container-2">
@@ -29,9 +35,12 @@
                     <p class="header-description">
                         A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!
                     </p>
-                    <button class="btn-primary">Join Club Now!</button>
+                    <div class="display-flex button-container">
+                        <button class="btn-primary">Join Club Now!</button>
                     <button class="btn-secondary">Download App</button>
+                    </div>
                 </div>
+
                 <div class="header-pic">
                     <img src="images/Images 2.png" alt="">
                     <div class="header-box">
@@ -55,6 +64,38 @@
             </div>
         </div>
     </header>
+    <main>
+        <!-- habit section -->
+         <section class="second-color">
+            <div class="habit-container">
+                <h2>Change Your Habits</h2>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <div class="habits">
+                    <div>
+                        <img src="" alt="">
+                        <h4>Movement</h4>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <h4>Time</h4>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <h4>Practice</h4>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <h4>Weight Loss</h4>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                </div>
+            </div>
+
+         </section>
+    </main>
     
 </body>
 </html>

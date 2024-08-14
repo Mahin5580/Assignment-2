@@ -16,10 +16,10 @@
 .miama {
   font-family: "Miama Nueva";
 }                                             
-
-                
+     
 
 /*shared style start*/
+
 .text-color{
   color: white;
 }
@@ -43,15 +43,24 @@
 }
 
 /*shared style end*/
-  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .display-flex{
+    display: flex;
+  }
 
 
   /*header section start */
-  .header-container{
+  .header-container,.habit-container{
     width: 80%;
     margin: 0 auto;
   }
+ 
   .nav-title{
+    align-content: center;
+    margin-top: 20px;
     font-size: 2.1rem;
     font-weight: 800;
     font-style: italic;
@@ -86,6 +95,9 @@
     text-decoration: none;
     font-size: 1rem;
   }
+  .hambergur{
+    display: none;
+  }
 
   .header-text{
     margin-top: 95px;
@@ -107,13 +119,14 @@
     justify-content: space-between;
   }
   .header-description{
+    margin:28px auto ;
     color: rgba(255, 255, 255, 0.51)
   }
   .btn-secondary{
     border: 1px solid white;
     background-color: black;
     /* background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(204, 204, 204, 1), rgba(153, 153, 153, 1)); */
-
+    margin-left: 14px;
     padding: 16px 46px;
     color: white;
     font-weight: 700;
@@ -121,7 +134,7 @@
    
   }
   .header-box{
-    padding: 7px;
+    
     display: flex;
     justify-content:left;
     width: 200px;
@@ -129,26 +142,27 @@
     border-radius: 12px;
     position: absolute;
     top: 68%;
-    left: -38%;
+    right: 72%;
 
   }
   .header-box h3{
     font-weight: 800;
     font-size: 1.4rem;
-    margin-bottom: 5px;
+    margin-top: 17px;
   }
   
   .header-box-1{
-    width: 200px;
-    padding-left: 30px;
+    width: 180px;
+    padding: 17px 17px;
     background-color: rgba(48, 48, 48, 0.54);
     border-radius: 12px;
     position: absolute;
     top: 22%;
     left: 65%;
+    
   }
   .header-box p{
-    margin-top: 5px;
+    /* margin-top: 5px; */
     color: rgba(255, 255, 255, 0.51)
     
   }
@@ -165,6 +179,6 @@
     background-color: rgba(230, 83, 60, 1);
     border-radius: 50%;
     margin: 10px;
-    margin-top: 30px;
+    margin-top: 17px;
     
   }
