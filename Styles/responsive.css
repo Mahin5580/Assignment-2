@@ -111,14 +111,11 @@
    }
    .bmi-text h1{
     font-size: 2rem;
+    padding-top: 40px;
    }
      .calculate-bmi{
       flex-direction: column;
       align-items: center;
-      /* width: 100%;
-      background-color:rgba(34, 34, 34, 1) ;
-      justify-content: space-around;
-      padding: 50px 0px; */
     }
     #child1, #child2, #child3, #child4, #child5{
       padding: 13px 10px;    
@@ -129,7 +126,14 @@
       max-width: 90%;
       
      }
-     
+     /*team section*/
+     .team-pictures{
+      grid-template-columns: repeat(1,1fr);
+      
+     }
+     .team h1{
+      font-size: 2rem;
+     }
    
 
   
