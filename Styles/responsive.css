@@ -134,7 +134,18 @@
      .team h1{
       font-size: 2rem;
      }
-   
+   /*footer section*/
+   .footer-container{
+    display: grid;
+    padding: 44px 36px 44px 20px;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    
+   }
+   .right{
+    max-width: 90%;
+    padding-left: 20px;
+   }
 
   
    

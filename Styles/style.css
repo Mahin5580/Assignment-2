@@ -357,6 +357,7 @@
     gap: 20px;
     padding: 20px;
     border-radius: 18px;
+    margin-bottom:100px ;
    }
    .team-pictures>div{
     position: relative;
@@ -375,5 +376,45 @@
     left: -10%;
    }
    
+   /*footer section*/
+   footer{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+   }
+   footer li{
+    list-style: none;
+    padding-top: 20px;
+   }
+   footer a{
+    color: rgba(255, 255, 255, 0.656);
+    text-decoration: none;
+   }
+   .footer-container{
+    display: grid;
+    padding: 66px 190px;
+    grid-template-columns: 443px 181px 181px;
+    gap: 160px;
+    
+   }
+   .footer-container h1{
+    font-weight: 800;
+    font-size: 4.3rem;
+    color: rgba(230, 83, 60, 1);
+    padding-bottom: 20px;
+   }
+   .footer-container p{
+    letter-spacing: 0.3px;
+    line-height: 1.7;
    
-   
+ }
+   .right{
+    max-width: 1060px;
+    border-top: 1px solid rgba(255, 255, 255, 0.349);
+    padding-left: 100px;
+    padding-bottom: 36px;
+    padding-top: 36px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.5);
+   }
