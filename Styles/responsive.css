@@ -71,6 +71,65 @@
       grid-template-columns: repeat(1,1fr);
         justify-items: center; 
       }
+    /*run section*/
+    .run{
+      width: 90%;
+      flex-direction: column;
+    }
+     .run-text{
+      margin: 20px;
+     } 
+     .run-text p{
+      margin-bottom: 34px;
+      margin-top: 14px;
+      letter-spacing: 0.3px;
+      line-height: 1.7;
+     } 
+
+    .run-text h1{
+      font-size: 2rem;
+     }
+     .run-text button{
+      margin-left: 30px;
+      padding: 16px 103px;
+     }
+     .run-pic-container{
+      max-width: 287px;
+      padding-left: 15px;
+      
+     }
+     .run-pic{ 
+     width: 100%;
+      border-radius: 18px;
+     }
+
+     /*bmi section*/
+     .bmi-text{
+      text-align: left;
+      padding: 30px 20px;
+      
+   }
+   .bmi-text h1{
+    font-size: 2rem;
+   }
+     .calculate-bmi{
+      flex-direction: column;
+      align-items: center;
+      /* width: 100%;
+      background-color:rgba(34, 34, 34, 1) ;
+      justify-content: space-around;
+      padding: 50px 0px; */
+    }
+    #child1, #child2, #child3, #child4, #child5{
+      padding: 13px 10px;    
+     
+     } 
+     .my-bmi{
+      margin-top: 30px;
+      max-width: 90%;
+      
+     }
+     
    
 
   
