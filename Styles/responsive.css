@@ -2,11 +2,19 @@
     .hambergur{
         display: block;
         margin-top: 35px;
+        font-size: 1.4rem;
       }
     
 
     .nav-display{
         display: none;
+    }
+    .nav-bar{
+      margin-top: 50px;
+    }
+      display: flex;
+      justify-content: space-between;
+      
     }
     .header-container,.habit-container{
       width: 90%;
@@ -33,20 +41,28 @@
       .header-description br {
         display: none;
     }
-    .btn-primary{
+    /* .btn-primary{
       padding: 16px 40px;  
        
-    }
+    } */
     .button-container {
      
      width: 90vw;
+     margin-bottom: 40px;
+  }
+  .button-container span{
+    display: none;
   }
   
-    .btn-secondary{
+  .btn-primary,.btn-secondary{
     
-      padding: 16px 40px; 
+      padding: 16px 20px; 
       
      
+    }
+
+    .button-container button:nth-child(1){
+      padding: 16px 45px; 
     }
     .header-box{
     
@@ -60,7 +76,7 @@
     }
     .header-box-1{
       width: 160px;
-      padding: 10px 8px;
+      padding: 10px 15px;
       top: 10%;
       left: 50%;
       
@@ -92,8 +108,8 @@
       font-size: 2rem;
      }
      .run-text button{
-      margin-left: 30px;
-      padding: 16px 103px;
+      /* margin-left: 30px; */
+      padding: 16px 125px;
      }
      
      

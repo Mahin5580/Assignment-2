@@ -44,6 +44,8 @@
   font-weight: 700;
   border-radius: 40px;
   border: none;
+  font-weight: 600;
+  font-size: 1.125rem;
 }
 
 .title-text{
@@ -139,7 +141,8 @@
   .btn-secondary{
     border: 1px solid white;
     background-color: rgba(0, 0, 0, 0);
-
+    font-weight: 600;
+    font-size: 1.125rem;
     margin-left: 14px;
     padding: 16px 46px;
     color: white;
@@ -157,7 +160,8 @@
     position: absolute;
     top: 68%;
     right: 72%;
-
+    padding-bottom: 5px;
+    padding-left: 5px;
   }
   .header-box h3{
     font-weight: 800;
@@ -173,7 +177,11 @@
     position: absolute;
     top: 22%;
     left: 65%;
-    
+    /* padding-left: 23px */
+  }
+  .header-box-1 h1{
+    font-size: 2.5rem;
+    font-weight: 900;
   }
   .header-box p{
     /* margin-top: 5px; */
@@ -198,8 +206,8 @@
   }
   #play-icon{
     position: absolute;
-    left: 15%;
-    top: 45%;
+    left: 17%;
+    top: 44%;
 
   }
   header{
