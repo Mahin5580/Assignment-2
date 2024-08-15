@@ -531,5 +531,8 @@
     .header-title{
       line-height: 0.9;
     }
+    .header-text{
+      margin-top: 50px;
+    }
     
    }
