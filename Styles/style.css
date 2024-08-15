@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
 /*font inter*/
 
 .inter {
@@ -11,11 +14,12 @@
 
 /*font miama*/
 
-@import url('https://fonts.cdnfonts.com/css/miama');
+ .miama {
 
-.miama {
-  font-family: "Miama Nueva";
-}                                             
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }                                                                                       
      
 
 /*shared style start*/
@@ -112,16 +116,15 @@
 
   .header-text{
     margin-top: 95px;
-   
   }
 
   .header-title{
+    max-width: 520px;
     font-size: 4.9rem;
     font-weight: 900;
+    line-height: 1.1;
   }
-  .header-title>span{
-    font-weight: 100;
-  }
+  
   .header-pic{
    position: relative;
   }
@@ -149,7 +152,7 @@
     display: flex;
     justify-content:left;
     width: 200px;
-    background-color: rgba(48, 48, 48, 0.819);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     position: absolute;
     top: 68%;
@@ -165,7 +168,7 @@
   .header-box-1{
     width: 180px;
     padding: 17px 17px;
-    background-color: rgba(48, 48, 48, 0.819);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     position: absolute;
     top: 22%;
@@ -192,6 +195,12 @@
     margin: 10px;
     margin-top: 17px;
     
+  }
+  #play-icon{
+    position: absolute;
+    left: 15%;
+    top: 45%;
+
   }
   header{
     background: linear-gradient(to bottom, rgba(17, 17, 17, 1), rgba(68, 68, 68, 0.5), rgba(119, 119, 119, 0));
@@ -336,7 +345,7 @@
    #child4{
     grid-column: 3/span 2;
  
-    color:rgba(255, 255, 255, 0.275);  
+    color:rgba(255, 255, 255, 0.275); 
     
    }
    #child5{
@@ -474,4 +483,17 @@
     margin: 0 auto;
     font-size: 1.25rem;
     color: rgba(255, 255, 255, 0.5);
+   }
+
+   /*responsive*/
+   @media screen and (min-width:993px) and (max-width:1230px){
+
+    .header-box{
+      top: 68%;
+      right: 30%;
+  
+    }
+    .header-title{
+      line-height: 0.9;
+    }
    }
